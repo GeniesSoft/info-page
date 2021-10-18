@@ -1,6 +1,6 @@
 {
   "name": "info-page",
-  "homepage": "http://geniessoft.github.io/info-page",
+  "homepage": "http://geniessoft.github.io/info-page/build/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
