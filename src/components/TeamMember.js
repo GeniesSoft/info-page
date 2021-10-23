@@ -19,7 +19,7 @@ const TeamMember = (props) => {
     const member = props.member;
 
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 380 }}>
             <CardMedia
                 component="img"
                 height="300"
