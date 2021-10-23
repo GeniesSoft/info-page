@@ -23,7 +23,7 @@ const TeamMember = (props) => {
             <CardMedia
                 component="img"
                 height="300"
-                image={ process.env.PUBLIC_URL + "/img/" + member.id + ".png" }
+                image={`${process.env.PUBLIC_URL}/images/${member.id}.png`}
                 alt="default avatar"
             />
             <CardContent>

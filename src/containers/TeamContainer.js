@@ -15,11 +15,10 @@ const TeamContainer = () => {
             alignItems="center"
             spacing={1}
         >
-
             {
                 memberList.map(member => {
                     return (
-                        <Grid key={member.id} item xs={12} sm={6} md={4} lg={3}>
+                        <Grid key={member.id} item xs={12} sm={6} md={4}>
                             <TeamMember member={member} />
                         </Grid>
                     )

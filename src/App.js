@@ -1,16 +1,22 @@
 import './App.css';
-import TeamContainer from "./containers/TeamContainer";
-import {Divider, Typography} from "@mui/material";
+import { ThemeProvider } from '@emotion/react';
+import {Box, createTheme, CssBaseline} from "@mui/material";
+import NavBar from "./components/Navigation/NavBar";
+import HomeView from "./Views/HomeView";
+
+const theme = createTheme();
 
 function App() {
   return (
-    <div className="App">
-
-        <Typography align={"center"} gutterBottom variant={"h1"} > Genies Soft </Typography>
-
-        <TeamContainer />
-
-    </div>
+      <div className="App">
+          <ThemeProvider theme={theme}>
+              <Box component="main">
+                  <CssBaseline />
+                  <NavBar />
+                  <HomeView />
+              </Box>
+          </ThemeProvider>
+      </div>
   );
 }
 
