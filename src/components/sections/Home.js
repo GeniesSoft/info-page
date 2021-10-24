@@ -25,10 +25,11 @@ const classes = {
     },
 }
 
-const Hero = () => {
+const Home = () => {
 
     return (
-        <Box sx={classes.root}>
+        <Box id={"home"} sx={classes.root}>
+            <a name={"home"} />
             <ReactPlayer
                 url={`${process.env.PUBLIC_URL}/videos/video-3.mp4`}
                 playing
@@ -47,10 +48,10 @@ const Hero = () => {
                     color="#fff"
                 >
                     <Typography variant="h3" component="h1" sx={classes.title}>
-                        Project Heading
+                        Trip.ly
                     </Typography>
                     <Typography variant="h5" component="h2" sx={classes.title}>
-                        Project SubHeading
+                        “When all else fails, take a vacation.”
                     </Typography>
                 </Box>
             </Box>
@@ -58,4 +59,4 @@ const Hero = () => {
     );
 }
 
-export default Hero;
+export default Home;

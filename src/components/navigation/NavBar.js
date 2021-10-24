@@ -24,7 +24,7 @@ const NavBar = () => {
     const [navButtons, setNavButtons] = useState(buttonWhite);
     const handleNavColorChange = () => {
         const handleScroll = () => {
-            if (window.scrollY > 310) {
+            if (window.scrollY > 200) {
                 setNavBack(appBarSolid);
                 setNavButtons(buttonBlack);
             }
@@ -38,6 +38,7 @@ const NavBar = () => {
             document.removeEventListener("scroll", handleScroll)
         }
     }
+    useEffect( handleNavColorChange, []);
 
     const [mobileView, setMobileView] = useState(false);
     const [drawerOpen, setDrawerOpen] = useState(false);
@@ -50,16 +51,13 @@ const NavBar = () => {
                 setMobileView(false);
             }
         }
+        setResponsiveness();
         window.addEventListener("resize", setResponsiveness);
         return () => {
             window.removeEventListener("resize", () => setResponsiveness());
         };
     };
-
-    useEffect( () => {
-        handleNavColorChange();
-        handleResponsiveness();
-    }, []);
+    useEffect(handleResponsiveness, []);
 
     const displayDesktop = () => {
         return (
@@ -67,7 +65,7 @@ const NavBar = () => {
                 <Toolbar>
                     <Box sx={{flexGrow: 1}}>
                         <Typography variant="h6" component="div" sx={navButtons}>
-                            Project Name
+                            Trip.ly
                         </Typography>
                     </Box>
 
@@ -102,7 +100,7 @@ const NavBar = () => {
 
                 <Box sx={{flexGrow: 1}}>
                     <Typography variant="h6" component="div" sx={navButtons}>
-                        Project Name
+                        Trip.ly
                     </Typography>
                 </Box>
 

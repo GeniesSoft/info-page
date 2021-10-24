@@ -17,10 +17,11 @@ const classes = {
     },
 }
 
-const Services = () => {
+const WhyUs = () => {
 
     return (
-        <Box sx={classes.root}>
+        <Box id={"reason"} sx={classes.root}>
+            <a name={"reason"} />
             <Container
                 sx={classes.content}
             >
@@ -91,4 +92,4 @@ const Services = () => {
     )
 }
 
-export default Services;
+export default WhyUs;

@@ -1,5 +1,5 @@
 import {Box, Container, Grid, Typography} from "@mui/material";
-import TeamContainer from "../containers/TeamContainer";
+import TeamContainer from "../../containers/TeamContainer";
 
 const classes = {
 
@@ -16,7 +16,8 @@ const classes = {
 const Team = () => {
 
     return (
-        <Box sx={classes.root}>
+        <Box id={"team"} sx={classes.root}>
+            <a name={"team"} />
             <Container
                 sx={classes.content}
             >

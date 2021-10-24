@@ -1,6 +1,6 @@
 import {Box, Container, Grid, Typography} from "@mui/material";
-import TargetIcon from "./icons/TargetIcon";
-import SuccessIcon from "./icons/SuccessIcon";
+import TargetIcon from "../icons/TargetIcon";
+import SuccessIcon from "../icons/SuccessIcon";
 
 const classes = {
 
@@ -18,7 +18,8 @@ const classes = {
 const AboutUs = () => {
 
     return (
-        <Box sx={classes.root}>
+        <Box id={"about"} sx={classes.root}>
+            <a name={"about"} />
             <Container
                 sx={classes.content}
             >
