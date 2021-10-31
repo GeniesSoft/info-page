@@ -48,7 +48,7 @@ const Home = () => {
                     color="#fff"
                 >
                     <Typography variant="h3" component="h1" sx={classes.title}>
-                        Trip.ly
+                        Upislands
                     </Typography>
                     <Typography variant="h5" component="h2" sx={classes.title}>
                         “When all else fails, take a vacation.”

@@ -65,7 +65,7 @@ const NavBar = () => {
                 <Toolbar>
                     <Box sx={{flexGrow: 1}}>
                         <Typography variant="h6" component="div" sx={navButtons}>
-                            Trip.ly
+                            Upislands
                         </Typography>
                     </Box>
 
@@ -100,7 +100,7 @@ const NavBar = () => {
 
                 <Box sx={{flexGrow: 1}}>
                     <Typography variant="h6" component="div" sx={navButtons}>
-                        Trip.ly
+                        Upislands
                     </Typography>
                 </Box>
 

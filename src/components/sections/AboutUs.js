@@ -43,8 +43,8 @@ const AboutUs = () => {
                         >
                             <SuccessIcon />
                             <Typography variant="h4" component="h4" align={"center"} gutterBottom > Our Vision </Typography>
-                            <Typography variant="body1" component="span">
-                                Proin ut ipsum vel elit congue pulvinar eget non ligula. Ut faucibus mi et lectus venenatis, eget tincidunt odio fermentum. Vestibulum faucibus massa eu turpis pharetra venenatis.
+                            <Typography variant="body1" component="span" align={"center"}>
+                                To be the closest travel friend of travelers and adventurers
                             </Typography>
                         </Box>
                     </Grid>
@@ -58,8 +58,8 @@ const AboutUs = () => {
                         >
                             <TargetIcon />
                             <Typography variant="h4" component="h4" align={"center"} gutterBottom > Our Mission </Typography>
-                            <Typography variant="body1" component="span">
-                                Sed eu dolor pharetra, pellentesque elit vel, finibus sapien. Aliquam bibendum lectus eros, sit amet placerat nibh hendrerit et.
+                            <Typography variant="body1" component="span" align={"center"}>
+                            Help people to have the most unique trip experiences.
                             </Typography>
                         </Box>
                     </Grid>

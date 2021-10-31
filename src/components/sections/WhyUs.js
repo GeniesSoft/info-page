@@ -37,8 +37,8 @@ const WhyUs = () => {
                         <Typography variant="h3" component="h3" align={"center"} gutterBottom > Why Us? </Typography>
                     </Grid>
 
-                    <Grid item xs={12}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget sodales ipsum. Donec in laoreet nisl, ac maximus arcu. Aliquam facilisis finibus sapien, vitae fermentum ipsum fringilla eu. Suspendisse fermentum turpis vel varius euismod. Donec mollis varius rhoncus. Fusce dapibus, dolor a vulputate ultrices, nibh tellus euismod mauris, ut pellentesque nisi diam nec mauris.
+                    <Grid item xs={12} align={"center"}>
+                        We provide the most reliable service along with the best trip you will ever have.
                     </Grid>
 
                     <Grid item xs={12} sm={6} md={4} lg={3}>
@@ -50,8 +50,8 @@ const WhyUs = () => {
                         >
                             <TimerIcon fontSize={"large"} />
                             <Typography variant="h6" component="h6" gutterBottom > Time </Typography>
-                            <Typography variant="body1" component="span" gutterBottom >
-                                Quisque ut nulla auctor, sollicitudin justo ullamcorper, viverra massa. Nulla facilisi. Nunc vitae interdum ligula. Fusce iaculis dapibus augue, nec tempor nisi scelerisque eu.
+                            <Typography variant="body1" component="span" align={"center"} gutterBottom >
+                                Faster than fast, quicker than quick. We are Lightning. Speed. We are Speed.
                             </Typography>
                         </Box>
                     </Grid>
@@ -65,8 +65,8 @@ const WhyUs = () => {
                         >
                             <SecurityIcon fontSize={"large"} />
                             <Typography variant="h6" component="h6" gutterBottom > Security </Typography>
-                            <Typography variant="body1" component="span" gutterBottom >
-                                Suspendisse potenti. Sed eget ultricies mauris. Etiam congue pulvinar mi ac interdum. Fusce elementum risus eu dui tempus, sed semper risus semper.
+                            <Typography variant="body1" component="span" align={"center"} gutterBottom >
+                                We use the safest technologies in every field. Your personal information is safe with us ;)
                             </Typography>
                         </Box>
                     </Grid>
@@ -80,8 +80,8 @@ const WhyUs = () => {
                         >
                             <PaymentIcon fontSize={"large"} />
                             <Typography variant="h6" component="h6" gutterBottom > Payment </Typography>
-                            <Typography variant="body1" component="span" gutterBottom >
-                                Nulla facilisi. Nunc gravida et ex ac aliquam. Nulla et lorem urna. Ut et felis lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                            <Typography variant="body1" component="span" align={"center"} gutterBottom >
+                                We work with the easiest, fastest and most reliable payment methods.
                             </Typography>
                         </Box>
                     </Grid>
